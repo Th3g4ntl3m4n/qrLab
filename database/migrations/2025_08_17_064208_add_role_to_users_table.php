@@ -8,20 +8,20 @@ use Illuminate\Support\Facades\DB;
 return new class extends Migration {
     public function up(): void
     {
-        Schema::table('users', function (Blueprint $table) {
-            $table->string('role', 20)->default('standard')->after('email');
-            $table->index('role');
-        });
-
-        // Backfill por si hay usuarios existentes
-        DB::table('users')->whereNull('role')->orWhere('role','')->update(['role' => 'standard']);
+        if (!Schema::hasColumn('users', 'role')) {
+            Schema::table('users', function (Blueprint $table) {
+                // Si prefieres 20 chars y default 'estandard'
+                $table->string('role', 20)->default('estandard')->after('email');
+            });
+        }
     }
 
     public function down(): void
     {
-        Schema::table('users', function (Blueprint $table) {
-            $table->dropIndex(['role']);
-            $table->dropColumn('role');
-        });
+        if (Schema::hasColumn('users', 'role')) {
+            Schema::table('users', function (Blueprint $table) {
+                $table->dropColumn('role');
+            });
+        }
     }
 };
