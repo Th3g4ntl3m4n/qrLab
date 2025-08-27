@@ -134,7 +134,7 @@
         </div>
     </section>
 
-    <!-- Formulario de Leads -->
+    <!-- Formulario de Leads
     <section id="form" class="parallax text-center">
         <div class="container">
             <h2 class="mb-4">¡Prueba QrLab!</h2>
@@ -150,6 +150,8 @@
         </div>
     </section>
 
+     -->
+
     <!-- Footer -->
     <footer class="bg-light text-center py-4">
         <div class="container">
@@ -159,6 +161,7 @@
                 <a href="/register">Register</a>
             </p>
             <p>© QrLab 2025</p>
+            <p>DevNull S.A.S</p>
         </div>
     </footer>
 
