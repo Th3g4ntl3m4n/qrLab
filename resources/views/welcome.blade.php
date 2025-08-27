@@ -79,19 +79,19 @@
     <div id="carouselExample" class="carousel slide my-5" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="https://source.unsplash.com/800x400/?qr-code,branding" class="d-block w-100" alt="QR para tu marca">
+                <img src="https://images.pexels.com/photos/8372628/pexels-photo-8372628.jpeg" class="d-block w-100" alt="QR para tu marca">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>QR para tu marca</h5>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="https://source.unsplash.com/800x400/?product,qr-code" class="d-block w-100" alt="QR en productos">
+                <img src="https://images.pexels.com/photos/7857539/pexels-photo-7857539.jpeg" class="d-block w-100" alt="QR en productos">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>QR en productos</h5>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="https://source.unsplash.com/800x400/?event,qr-code" class="d-block w-100" alt="QR en eventos">
+                <img src="https://images.pexels.com/photos/18399371/pexels-photo-18399371.jpeg" class="d-block w-100" alt="QR en eventos">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>QR en eventos</h5>
                 </div>
